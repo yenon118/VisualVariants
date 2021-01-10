@@ -1,0 +1,10 @@
+.gitignore
+
+^LICENSE\.md$
+^cran-comments\.md$
+
+notes
+data
+output
+tests
+scripts

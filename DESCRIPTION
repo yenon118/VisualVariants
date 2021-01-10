@@ -1,0 +1,27 @@
+Package: VisualVariants
+Title: VisualVariants
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Yen On",
+           family = "Chan",
+           role = c("aut", "cre"),
+           email = "chanye@mail.missouri.edu",
+           comment = c(ORCID = "https://orcid.org/0000-0002-3345-9614"))
+Description: This package provides visualizations for variants.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.6.0)
+Imports:
+    magrittr,
+    dplyr,
+    tidyr,
+    tibble,
+    stringr,
+    ggplot2,
+    foreach,
+    iterators,
+    parallel,
+    doParallel,
+    argparse
+RoxygenNote: 7.0.2
