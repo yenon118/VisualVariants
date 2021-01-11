@@ -6,6 +6,15 @@
 
 The goal of this project is to create an R package and executable scripts to visualize variants in variant call format (VCF) files and bcftools tab-delimited files.
 
+## Requirements
+
+In order to run the VisualVariants, users need to install software, programming languages, and packages in their computing systems.
+The software, programming languages, and packages include: 
+
+```
+R>=3.6.0
+``` 
+
 ## Installation
 
 You can install the VisualVariants from [Github](https://github.com/yenon118/VisualVariants) with:
@@ -23,6 +32,8 @@ git clone https://github.com/yenon118/VisualVariants.git
 
 ## Usage
 
+1. generateMissingVariantCountStackBarChartParallel.R
+
 ```
 Rscript scripts/generateMissingVariantCountStackBarChartParallel.R [-h] [--cores CORES] --inputs INPUTS --output OUTPUT [--all]
 
@@ -35,6 +46,8 @@ optional arguments:
   --cores CORES    Number of processing cores
   --all            Output all files
 ```
+
+2. generateSampleMissingPercentageScatterPlotParallel.R
 
 ```
 Rscript scripts/generateSampleMissingPercentageScatterPlotParallel.R [-h] [--cores CORES] --inputs INPUTS --output OUTPUT [--all]
@@ -49,9 +62,11 @@ optional arguments:
   --all            Output all files
 ```
 
-## Example
+## Examples
 
-This is a basic example which shows you how to use VisualVariants:
+These are basic examples which show you how to use VisualVariants:
+
+1. generateMissingVariantCountStackBarChartParallel.R
 
 ```
 Rscript scripts/generateMissingVariantCountStackBarChartParallel.R \
@@ -63,6 +78,8 @@ Rscript scripts/generateMissingVariantCountStackBarChartParallel.R \
 --all
 ```
 
+2. generateSampleMissingPercentageScatterPlotParallel.R
+
 ```
 Rscript scripts/generateSampleMissingPercentageScatterPlotParallel.R \
 --cores 3 \
@@ -72,6 +89,18 @@ Rscript scripts/generateSampleMissingPercentageScatterPlotParallel.R \
 --output /scratch/yenc/projects/VisualVariants/output/sample_missing_percentage_scatter_plot.png \
 --all
 ```
+
+## Results
+
+These are basic examples which show you how to use VisualVariants:
+
+1. generateMissingVariantCountStackBarChartParallel.R
+
+![missing variant count stack bar chart](https://user-images.githubusercontent.com/22091525/104143512-667a9f00-5385-11eb-95cc-4ed2fa0396da.png)
+
+2. generateSampleMissingPercentageScatterPlotParallel.R
+
+![sample missing percentage scatter plot](https://user-images.githubusercontent.com/22091525/104143516-68dcf900-5385-11eb-9073-5dfb292d2cd7.png)
 
 ## Package Update
 
