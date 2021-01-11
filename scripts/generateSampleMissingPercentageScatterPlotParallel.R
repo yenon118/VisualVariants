@@ -14,8 +14,7 @@ library(foreach)
 library(iterators)
 library(parallel)
 library(doParallel)
-
-source("./R/generateSampleMissingPercentageScatterPlotParallel.R")
+library(VisualVariants)
 
 
 parser <- argparse::ArgumentParser()

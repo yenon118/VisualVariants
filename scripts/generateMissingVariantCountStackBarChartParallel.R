@@ -14,8 +14,7 @@ library(foreach)
 library(iterators)
 library(parallel)
 library(doParallel)
-
-source("./R/generateMissingVariantCountStackBarChartParallel.R")
+library(VisualVariants)
 
 
 parser <- argparse::ArgumentParser()
