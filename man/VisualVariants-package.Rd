@@ -9,7 +9,7 @@
 This package provides visualizations for variants.
 }
 \author{
-\strong{Maintainer}: Yen On Chan \email{chanye@mail.missouri.edu} (\href{https://orcid.org/https://orcid.org/0000-0002-3345-9614}{ORCID})
+\strong{Maintainer}: Yen On Chan \email{chanye@mail.missouri.edu} (\href{https://orcid.org/0000-0002-3345-9614}{ORCID})
 
 }
 \keyword{internal}
