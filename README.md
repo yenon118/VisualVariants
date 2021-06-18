@@ -131,7 +131,7 @@ These are basic examples which show you how to use VisualVariants:
 
 3. generateVariantCountHistogramParallel.R
 
-
+![variant_count_histogram](https://user-images.githubusercontent.com/22091525/122620706-3d0f1f00-d059-11eb-8e0b-402c79a1bcb8.png)
 
 ## Package Update
 
