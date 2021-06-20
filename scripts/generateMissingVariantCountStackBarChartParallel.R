@@ -78,6 +78,5 @@ ggplot2::ggsave(
   plot = return_value$MissingVariantCountStackBarChart,
   path = dirname(output),
   width = 32,
-  height = 18,
-  dpi = 800
+  height = 18
 )

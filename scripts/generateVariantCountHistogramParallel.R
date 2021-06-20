@@ -63,6 +63,6 @@ ggplot2::ggsave(
   filename = basename(output),
   plot = return_value$VariantCountHistogram,
   path = dirname(output),
-  width = 18,
-  height = 10
+  width = 32,
+  height = 18
 )
